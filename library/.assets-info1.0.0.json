@@ -1,0 +1,362 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images.meta": {
+      "time": 1710263938283.314
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images": {
+      "time": 1710336092410.6194,
+      "uuid": "7fd83927-b2cc-4a2e-94ca-5db557369e36"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts.meta": {
+      "time": 1710263950522.1462
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts": {
+      "time": 1710336191157.33,
+      "uuid": "2f1dfdb8-a464-4046-9bdd-1d2ddbe7f5a3"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scenes.meta": {
+      "time": 1710264206647.1372
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scenes": {
+      "time": 1710264206657.1392,
+      "uuid": "1d30b896-4fff-4aa8-abca-e788e79de948"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scenes\\scene.scene.meta": {
+      "time": 1710264206712.1536
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scenes\\scene.scene": {
+      "time": 1710336269466.9077,
+      "uuid": "570b64af-bb4f-4d0b-85f6-c423df259ca1"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\white_bg.png.meta": {
+      "time": 1710265817410.5464
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\white_bg.png": {
+      "time": 1710265804151.5322,
+      "uuid": "2168e49c-30c1-4624-b244-0a05b9aa2d9e"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\logo.png.meta": {
+      "time": 1710266302601.9297
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\logo.png": {
+      "time": 1710266292132.275,
+      "uuid": "1330e234-cfc1-48e6-a664-cedf7a7e8d79"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\long.png.meta": {
+      "time": 1710267072341.4026
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\long.png": {
+      "time": 1710267068426.1372,
+      "uuid": "631b89d0-a933-4835-9346-9bc91d471613"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\apple.png.meta": {
+      "time": 1710267672920.5332
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\apple.png": {
+      "time": 1710267659189.8599,
+      "uuid": "d7580fa5-3e7a-461e-8ac3-ada2d8e51858"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\apple_game.ts.meta": {
+      "time": 1710267808178.8284
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\apple_game.ts": {
+      "time": 1710269213788.594,
+      "uuid": "23af093a-7445-4c94-92b3-19d2cf12cdf9"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\apple_btn.ts.meta": {
+      "time": 1710267954991.5317
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\apple_btn.ts": {
+      "time": 1710269568285.5881,
+      "uuid": "2e2d9539-fe67-4faa-a613-d0a6634dedcf"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\main.ts.meta": {
+      "time": 1710269073457.172
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\main.ts": {
+      "time": 1710269739267.25,
+      "uuid": "9fb5e751-875a-4270-8a58-b23b4a0832a1"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\banana.png.meta": {
+      "time": 1710269945760.599
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\banana.png": {
+      "time": 1710269926547.3167,
+      "uuid": "43574c17-5099-4269-951b-579576502e39"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\banana_btn.ts.meta": {
+      "time": 1710270104032.6438
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\banana_btn.ts": {
+      "time": 1710270624699.2827,
+      "uuid": "afff4d52-0397-489d-b02d-965b1b5303fd"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\peache.png.meta": {
+      "time": 1710270362400.4983
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\peache.png": {
+      "time": 1710270317184.211,
+      "uuid": "71e9ea8a-64a5-401f-8991-e041ce86e7e7"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\peache_btn.ts.meta": {
+      "time": 1710270459652.9465
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\peache_btn.ts": {
+      "time": 1710270627477.5085,
+      "uuid": "277a94ae-e4df-4d35-8106-366489027945"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\BTN BACK.png.meta": {
+      "time": 1710335873480.7742
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\BTN BACK.png": {
+      "time": 1710335535191.8347,
+      "uuid": "ac484987-feb2-4f06-9260-0126c0db7309"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\bird.png.meta": {
+      "time": 1710336092421.6487
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\bird.png": {
+      "time": 1710335894665.3574,
+      "uuid": "a32b22b4-1516-4bd3-b6b8-d2be919d0db9"
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\bird.ts.meta": {
+      "time": 1710336191182.2097
+    },
+    "C:\\Users\\dekel\\NewProject_1\\assets\\Scripts\\bird.ts": {
+      "time": 1710336802093.8926,
+      "uuid": "87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images": {
+      "time": 1710788444576.0542,
+      "uuid": "7fd83927-b2cc-4a2e-94ca-5db557369e36"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scenes": {
+      "time": 1710264206657.1392,
+      "uuid": "1d30b896-4fff-4aa8-abca-e788e79de948"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts": {
+      "time": 1710787594657.2205,
+      "uuid": "2f1dfdb8-a464-4046-9bdd-1d2ddbe7f5a3"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\apple_btn.ts": {
+      "time": 1710786720407.6377,
+      "uuid": "2e2d9539-fe67-4faa-a613-d0a6634dedcf"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\apple_game.ts": {
+      "time": 1710664602405.029,
+      "uuid": "23af093a-7445-4c94-92b3-19d2cf12cdf9"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\banana_btn.ts": {
+      "time": 1710673124554.1526,
+      "uuid": "afff4d52-0397-489d-b02d-965b1b5303fd"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\main.ts": {
+      "time": 1710791982335.0776,
+      "uuid": "9fb5e751-875a-4270-8a58-b23b4a0832a1"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\peache_btn.ts": {
+      "time": 1710673391507.4773,
+      "uuid": "277a94ae-e4df-4d35-8106-366489027945"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images.meta": {
+      "time": 1710263938283.314
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scenes.meta": {
+      "time": 1710264206647.1372
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts.meta": {
+      "time": 1710263950522.1462
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\apple_btn.ts.meta": {
+      "time": 1710267954991.5317
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\apple_game.ts.meta": {
+      "time": 1710267808178.8284
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\banana_btn.ts.meta": {
+      "time": 1710270104032.6438
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\main.ts.meta": {
+      "time": 1710269073457.172
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\peache_btn.ts.meta": {
+      "time": 1710270459652.9465
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\apple.png": {
+      "time": 1710267659189.8599,
+      "uuid": "d7580fa5-3e7a-461e-8ac3-ada2d8e51858"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\banana.png": {
+      "time": 1710269926547.3167,
+      "uuid": "43574c17-5099-4269-951b-579576502e39"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\bird.png": {
+      "time": 1710335894665.3574,
+      "uuid": "a32b22b4-1516-4bd3-b6b8-d2be919d0db9"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\BTN BACK.png": {
+      "time": 1710335535191.8347,
+      "uuid": "ac484987-feb2-4f06-9260-0126c0db7309"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\logo.png": {
+      "time": 1710266292132.275,
+      "uuid": "1330e234-cfc1-48e6-a664-cedf7a7e8d79"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\long.png": {
+      "time": 1710267068426.1372,
+      "uuid": "631b89d0-a933-4835-9346-9bc91d471613"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\peache.png": {
+      "time": 1710270317184.211,
+      "uuid": "71e9ea8a-64a5-401f-8991-e041ce86e7e7"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\white_bg.png": {
+      "time": 1710265804151.5322,
+      "uuid": "2168e49c-30c1-4624-b244-0a05b9aa2d9e"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scenes\\scene.scene": {
+      "time": 1710836441019.1433,
+      "uuid": "570b64af-bb4f-4d0b-85f6-c423df259ca1"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\BTN BACK.png.meta": {
+      "time": 1710335873480.7742
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\bird.png.meta": {
+      "time": 1710336092421.6487
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\logo.png.meta": {
+      "time": 1710266302601.9297
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\banana.png.meta": {
+      "time": 1710269945760.599
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\apple.png.meta": {
+      "time": 1710267672920.5332
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scenes\\scene.scene.meta": {
+      "time": 1710264206712.1536
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\peache.png.meta": {
+      "time": 1710270362400.4983
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\white_bg.png.meta": {
+      "time": 1710265817410.5464
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\long.png.meta": {
+      "time": 1710267072341.4026
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\game.ts.meta": {
+      "time": 1710336191182.2097
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\game.ts": {
+      "time": 1710839630396.547,
+      "uuid": "87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\life.png.meta": {
+      "time": 1710748494722.0796
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\life.png": {
+      "time": 1710748494637.7087,
+      "uuid": "3dbf9aa9-ee80-460b-bf54-ceb5cd3490fe"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\life.ts.meta": {
+      "time": 1710749059374.555
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\life.ts": {
+      "time": 1710749059362.7502,
+      "uuid": "9dfbd71b-6db7-495c-a190-870f739b70d0"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\bomb.png.meta": {
+      "time": 1710748494609.6914
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\bomb.png": {
+      "time": 1710748494539.1062,
+      "uuid": "c6d265b9-b2b2-4618-967a-8cd56baa5f6b"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\blue_bg.jpeg.meta": {
+      "time": 1710761928456.0515
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\blue_bg.jpeg": {
+      "time": 1710761919678.0906,
+      "uuid": "0636a81e-f187-4236-a97b-dab9a32d0309"
+    },
+    "C:\\Users\\dekel\\App\\assets\\fonts.meta": {
+      "time": 1710787228129.308
+    },
+    "C:\\Users\\dekel\\App\\assets\\fonts": {
+      "time": 1710787231014.5972,
+      "uuid": "49d7ded8-ac8c-4568-b9d1-67096ab17c75"
+    },
+    "C:\\Users\\dekel\\App\\assets\\fonts\\FiraCode-Regular.ttf.meta": {
+      "time": 1710787231027.5425
+    },
+    "C:\\Users\\dekel\\App\\assets\\fonts\\FiraCode-Regular.ttf": {
+      "time": 1710787190482.1218,
+      "uuid": "1726765f-b45a-43aa-867b-289e2e85a53a"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\BTN Retry.png.meta": {
+      "time": 1710787543044.8535
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\BTN Retry.png": {
+      "time": 1710335535152.7278,
+      "uuid": "d86bb3bc-b6d4-4e04-b763-6615063ad2fc"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\retryBtn.ts.meta": {
+      "time": 1710765993244.7693
+    },
+    "C:\\Users\\dekel\\App\\assets\\Scripts\\retryBtn.ts": {
+      "time": 1710787848181.3196,
+      "uuid": "cf1ca905-8845-45b6-a373-daad147c1e5b"
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\small.png.meta": {
+      "time": 1710788444665.4685
+    },
+    "C:\\Users\\dekel\\App\\assets\\Images\\small.png": {
+      "time": 1710334551277.9272,
+      "uuid": "c2dc005e-2b04-4d2e-80af-243fb828def6"
+    }
+  },
+  "missing": {
+    "34f64c57-778c-49df-a5d1-a648eb137e9d": {
+      "path": "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\white_bg.png",
+      "time": 1710264048156.8008,
+      "removeTime": 1710265662336
+    },
+    "ccf01679-17cd-47cb-a81a-b41134e591c5": {
+      "path": "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\white_bg.png",
+      "time": 1710264048156.8008,
+      "removeTime": 1710265778995
+    },
+    "d7580fa5-3e7a-461e-8ac3-ada2d8e51858": {
+      "path": "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\11.png",
+      "time": 1710267659189.8599,
+      "removeTime": 1710267672897
+    },
+    "43574c17-5099-4269-951b-579576502e39": {
+      "path": "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\10.png",
+      "time": 1710269926547.3167,
+      "removeTime": 1710269945744
+    },
+    "71e9ea8a-64a5-401f-8991-e041ce86e7e7": {
+      "path": "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\5.png",
+      "time": 1710270317184.211,
+      "removeTime": 1710270362383
+    },
+    "a32b22b4-1516-4bd3-b6b8-d2be919d0db9": {
+      "path": "C:\\Users\\dekel\\NewProject_1\\assets\\Images\\yellowbird-downflap.png",
+      "time": 1710335894665.3574,
+      "removeTime": 1710336092411
+    },
+    "87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb": {
+      "path": "C:\\Users\\dekel\\App\\assets\\Scripts\\bird.ts",
+      "time": 1710672917128.2842,
+      "removeTime": 1710673428127
+    },
+    "cf1ca905-8845-45b6-a373-daad147c1e5b": {
+      "path": "C:\\Users\\dekel\\App\\assets\\Scripts\\backBtn.ts",
+      "time": 1710770179253.5525,
+      "removeTime": 1710787594659
+    }
+  }
+}

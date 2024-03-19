@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BTN BACK",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 77,
+      "height": 35
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 77,
+      "height": 35
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -38.5,
+        -17.5,
+        0,
+        38.5,
+        -17.5,
+        0,
+        -38.5,
+        17.5,
+        0,
+        38.5,
+        17.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        35,
+        77,
+        35,
+        0,
+        0,
+        77,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -38.5,
+        "y": -17.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 38.5,
+        "y": 17.5,
+        "z": 0
+      }
+    },
+    "texture": "ac484987-feb2-4f06-9260-0126c0db7309@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
