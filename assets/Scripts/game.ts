@@ -12,6 +12,7 @@ import { getArrayOf5RandomLocations } from "./main";
 
 @ccclass("game")
 export class game extends Component {
+
   readonly speed: number = 150;
 
   maxScore: number = 0;
@@ -22,26 +23,26 @@ export class game extends Component {
   missed: boolean = false;
   isGameOver: boolean = false;
 
+  // get random starting position for the game items 
   public startLocations = [...getArrayOf5RandomLocations()];
 
   static moveUp: any;
 
   onLoad() {
     this.node.parent.parent.getChildByName("blue_bg").active = true;
+
+    // Set the initial positions of all child nodes (the items like apples, banana...) based on the startLocations array
     this.node.children.forEach((item, index) => {
       item.setPosition(this.startLocations[index]);
     });
 
-    this.node.parent.parent
-      .getChildByName("retry")
-      .on(Node.EventType.MOUSE_DOWN, () => {
-        this.startGame();
-      });
+   //get listener started
+    this.addListeners()
   }
 
   update(deltaTime: number) {
+    
     if (!this.isGameOver) {
-      // console.log("game is running");
       if (!this.isEventAdded && this.node.children.length > 4) {
         this.addListeners();
         this.isEventAdded = true;
@@ -118,6 +119,13 @@ export class game extends Component {
         });
       }
     });
+
+    //  When the retry button is pressed it will call to startGame()
+    this.node.parent.parent
+      .getChildByName("retry")
+      .on(Node.EventType.MOUSE_DOWN, () => {
+        this.startGame();
+      });
   }
 
   gameOver() {
