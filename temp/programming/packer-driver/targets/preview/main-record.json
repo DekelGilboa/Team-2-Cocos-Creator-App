@@ -409,7 +409,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
+<<<<<<< HEAD
       "mTimestamp": 13447894.304916024,
+=======
+      "mTimestamp": 5641201.562124968,
+>>>>>>> origin/main
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1718,7 +1722,11 @@
     },
     "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts": {
       "mTimestamp": {
+<<<<<<< HEAD
         "mtime": 1711453182130.756,
+=======
+        "mtime": 1711446127804.0295,
+>>>>>>> origin/main
         "uuid": "87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb"
       },
       "chunkId": "2f29d3f9e07583d48b247f4e3ec50015b891417d",
@@ -1958,7 +1966,11 @@
     },
     "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts": {
       "mTimestamp": {
+<<<<<<< HEAD
         "mtime": 1711447991828.2505,
+=======
+        "mtime": 1711440458541.6296,
+>>>>>>> origin/main
         "uuid": "cf1ca905-8845-45b6-a373-daad147c1e5b"
       },
       "chunkId": "770b824d11c91bca124135060f4dc568e627dd7f",

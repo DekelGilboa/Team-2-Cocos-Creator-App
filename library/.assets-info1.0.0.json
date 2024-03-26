@@ -325,7 +325,11 @@
       "uuid": "1d30b896-4fff-4aa8-abca-e788e79de948"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts": {
+<<<<<<< HEAD
       "time": 1711453647000,
+=======
+      "time": 1711446130000,
+>>>>>>> origin/main
       "uuid": "2f1dfdb8-a464-4046-9bdd-1d2ddbe7f5a3"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/fonts": {
@@ -345,7 +349,11 @@
       "uuid": "afff4d52-0397-489d-b02d-965b1b5303fd"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts": {
+<<<<<<< HEAD
       "time": 1711453182130.756,
+=======
+      "time": 1711446127804.0295,
+>>>>>>> origin/main
       "uuid": "87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts": {
@@ -537,8 +545,13 @@
     },
     "cf1ca905-8845-45b6-a373-daad147c1e5b": {
       "path": "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts",
+<<<<<<< HEAD
       "time": 1711447991828.2505,
       "removeTime": 1711453972883
+=======
+      "time": 1711440458541.6296,
+      "removeTime": 1711445839616
+>>>>>>> origin/main
     }
   }
 }
