@@ -37,11 +37,16 @@ export class game extends Component {
       .on(Node.EventType.MOUSE_DOWN, () => {
         this.startGame();
       });
+    this.node.parent.parent
+      .getChildByName("back-btn")
+      .on(Node.EventType.MOUSE_DOWN, () => {
+        console.log("back  clicked");
+        this.backToHome();
+      });
   }
 
   update(deltaTime: number) {
     if (!this.isGameOver) {
-      // console.log("game is running");
       if (!this.isEventAdded && this.node.children.length > 4) {
         this.addListeners();
         this.isEventAdded = true;
@@ -76,16 +81,6 @@ export class game extends Component {
             this.gameOver();
           }
         });
-      if (
-        this.node.parent.parent
-          .getChildByName("retry")
-          .getComponent("retryBtn")["retryBtnClicked"]
-      ) {
-        this.startGame();
-        this.node.parent.parent
-          .getChildByName("retry")
-          .getComponent("retryBtn")["retryBtnClicked"] = false;
-      }
     }
   }
 
@@ -126,10 +121,41 @@ export class game extends Component {
     this.node.children.forEach((item) => {
       item.active = false;
       this.node.parent.parent.getChildByName("retry").active = true;
+      this.node.parent.parent.getChildByName("back-btn").active = true;
     });
   }
 
   startGame() {
+    this.resetVars()
+    this.node.parent.parent.getChildByName("result").active = false;
+    this.node.parent.parent.getChildByName("retry").active = false;
+    this.node.parent.parent.getChildByName("back-btn").active = false;
+  }
+
+  showResult() {
+    console.log("show result");
+    this.maxScore = Math.max(this.maxScore, this.currentScore);
+    const result = this.node.parent.parent.getChildByName("result");
+    result.getComponent(Label).string +=
+      "\nScore: " + this.currentScore + "\nHigh Score: " + this.maxScore;
+    result.active = true;
+  }
+
+  // back to main menu && calls to resetVars()
+  backToHome() {
+    this.node.parent.parent.children.forEach((item) => {
+      if (item.name == "start_screen") {
+        item.active = true;
+      } else {
+        item.active = false;
+      }
+    });
+    this.resetVars()
+  }
+
+
+  // reset game variables
+  resetVars(){
     this.isGameOver = false;
     this.node.parent.getChildByName("lives").children.forEach((item) => {
       item.active = true;
@@ -145,17 +171,5 @@ export class game extends Component {
     this.node.parent.parent
       .getChildByName("result")
       .getComponent(Label).string = "Result: ";
-    this.node.parent.parent.getChildByName("result").active = false;
-    this.node.parent.parent.getChildByName("retry").active = false;
-    console.log("game started");
-  }
-
-  showResult() {
-    console.log("show result");
-    this.maxScore = Math.max(this.maxScore, this.currentScore);
-    const result = this.node.parent.parent.getChildByName("result");
-    result.getComponent(Label).string +=
-      "\nScore: " + this.currentScore + "\nHigh Score: " + this.maxScore;
-    result.active = true;
   }
 }
