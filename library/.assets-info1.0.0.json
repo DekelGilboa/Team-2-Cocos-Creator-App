@@ -325,7 +325,7 @@
       "uuid": "1d30b896-4fff-4aa8-abca-e788e79de948"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts": {
-      "time": 1711444374000,
+      "time": 1711446130000,
       "uuid": "2f1dfdb8-a464-4046-9bdd-1d2ddbe7f5a3"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/fonts": {
@@ -345,7 +345,7 @@
       "uuid": "afff4d52-0397-489d-b02d-965b1b5303fd"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts": {
-      "time": 1711444369296.6816,
+      "time": 1711446127804.0295,
       "uuid": "87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts": {
@@ -359,10 +359,6 @@
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts": {
       "time": 1711440458541.5073,
       "uuid": "277a94ae-e4df-4d35-8106-366489027945"
-    },
-    "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts": {
-      "time": 1711440458541.6296,
-      "uuid": "cf1ca905-8845-45b6-a373-daad147c1e5b"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Images.meta": {
       "time": 1711440458536.1257
@@ -396,9 +392,6 @@
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.meta": {
       "time": 1711440458541.5706
-    },
-    "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts.meta": {
-      "time": 1711440458541.6938
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Images/BTN BACK.png": {
       "time": 1711440458536.3376,
@@ -543,9 +536,9 @@
       "removeTime": 1710673428127
     },
     "cf1ca905-8845-45b6-a373-daad147c1e5b": {
-      "path": "C:\\Users\\dekel\\App\\assets\\Scripts\\backBtn.ts",
-      "time": 1710770179253.5525,
-      "removeTime": 1710787594659
+      "path": "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts",
+      "time": 1711440458541.6296,
+      "removeTime": 1711445839616
     }
   }
 }

@@ -14,7 +14,7 @@ import { getArrayOf5RandomLocations } from "./main";
 export class game extends Component {
   readonly speed: number = 150;
 
-  maxScore: number = 0;
+  // maxScore: number = 0;
   currentScore: number = 0;
   isEventAdded: boolean = false;
   gameSpeed: number = this.speed;
@@ -134,10 +134,10 @@ export class game extends Component {
 
   showResult() {
     console.log("show result");
-    this.maxScore = Math.max(this.maxScore, this.currentScore);
+    // this.maxScore = Math.max(this.maxScore, this.currentScore);
     const result = this.node.parent.parent.getChildByName("result");
     result.getComponent(Label).string +=
-      "\nScore: " + this.currentScore + "\nHigh Score: " + this.maxScore;
+      "\nScore: " + this.currentScore 
     result.active = true;
   }
 
