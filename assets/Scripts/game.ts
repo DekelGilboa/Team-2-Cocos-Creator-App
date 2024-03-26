@@ -15,7 +15,6 @@ export class game extends Component {
 
   readonly speed: number = 150;
 
-  maxScore: number = 0;
   currentScore: number = 0;
   isEventAdded: boolean = false;
   gameSpeed: number = this.speed;
@@ -36,11 +35,7 @@ export class game extends Component {
       item.setPosition(this.startLocations[index]);
     });
 
-    this.node.parent.parent
-      .getChildByName("retry")
-      .on(Node.EventType.MOUSE_DOWN, () => {
-        this.startGame();
-      });
+   this.addListeners()
   }
 
   update(deltaTime: number) {
@@ -84,7 +79,7 @@ export class game extends Component {
       });
 
 
-      // set the life hearts in thier location
+      // set the life hearts in their location
       this.node.parent
         .getChildByName("lives")
         .children.forEach((item, index) => {
@@ -94,28 +89,17 @@ export class game extends Component {
             item.active = false;
           }
 
-          // if there is no more life left call gameover()
+          // if there is no more life left call gameOver()
           if (this.lifeCounter < 0 && !this.isGameOver) {
             this.isGameOver = true;
             this.gameOver();
           }
         });
-      if (
-        this.node.parent.parent
-          .getChildByName("retry")
-          .getComponent("retryBtn")["retryBtnClicked"]
-      ) {
-        this.startGame();
-        this.node.parent.parent
-          .getChildByName("retry")
-          .getComponent("retryBtn")["retryBtnClicked"] = false;
-      }
     }
   }
 
   addListeners() {
 
-  
     game.moveUp = (index: number) => {
       const randomNumbers = [];
       for (let i = 0; i < 5; i++) {
@@ -154,6 +138,13 @@ But if it's the bomb the lifeCounter will go down
       .on(Node.EventType.MOUSE_DOWN, () => {
         this.startGame();
       });
+      //  When the back button is pressed it will call to backToHome()
+      this.node.parent.parent
+      .getChildByName("back-btn")
+      .on(Node.EventType.MOUSE_DOWN, () => {
+        console.log("back  clicked");
+        this.backToHome();
+      });
   }
 
   // when the game over, show result and pause the game 
@@ -177,14 +168,6 @@ But if it's the bomb the lifeCounter will go down
     this.node.parent.parent.getChildByName("back-btn").active = false;
   }
 
-  showResult() {
-    console.log("show result");
-    this.maxScore = Math.max(this.maxScore, this.currentScore);
-    const result = this.node.parent.parent.getChildByName("result");
-    result.getComponent(Label).string +=
-      "\nScore: " + this.currentScore + "\nHigh Score: " + this.maxScore;
-    result.active = true;
-  }
 
   // back to main menu && calls to resetVars()
   backToHome() {
@@ -220,7 +203,6 @@ But if it's the bomb the lifeCounter will go down
       game.moveUp(index);
     });
 
-  
     this.node.parent.parent
       .getChildByName("result")
       .getComponent(Label).string = "Result: ";
@@ -229,12 +211,12 @@ But if it's the bomb the lifeCounter will go down
     console.log("game started");
   }
 
+  // showing the result when game over
   showResult() {
     console.log("show result");
-    this.maxScore = Math.max(this.maxScore, this.currentScore);
     const result = this.node.parent.parent.getChildByName("result");
     result.getComponent(Label).string +=
-      "\nScore: " + this.currentScore + "\nHigh Score: " + this.maxScore;
+      "\nScore: " + this.currentScore 
     result.active = true;
   }
 }
