@@ -36,15 +36,17 @@ export class game extends Component {
       item.setPosition(this.startLocations[index]);
     });
 
-   //get listener started
-    this.addListeners()
+    this.node.parent.parent
+      .getChildByName("retry")
+      .on(Node.EventType.MOUSE_DOWN, () => {
+        this.startGame();
+      });
   }
 
-  //everytime the game updates, move the game items 
   update(deltaTime: number) {
     
     if (!this.isGameOver) {
-
+      // console.log("game is running");
       if (!this.isEventAdded && this.node.children.length > 4) {
         this.addListeners();
         this.isEventAdded = true;
@@ -98,8 +100,6 @@ export class game extends Component {
             this.gameOver();
           }
         });
-
-        // if retry Butoon Clicked call startGame() and hide the retry Butoon
       if (
         this.node.parent.parent
           .getChildByName("retry")
@@ -164,12 +164,43 @@ But if it's the bomb the lifeCounter will go down
       // revealed the retry button and hide the game item
       item.active = false;
       this.node.parent.parent.getChildByName("retry").active = true;
+      this.node.parent.parent.getChildByName("back-btn").active = true;
     });
   }
 
 
   //what to do when the game is starting.
   startGame() {
+    this.resetVars()
+    this.node.parent.parent.getChildByName("result").active = false;
+    this.node.parent.parent.getChildByName("retry").active = false;
+    this.node.parent.parent.getChildByName("back-btn").active = false;
+  }
+
+  showResult() {
+    console.log("show result");
+    this.maxScore = Math.max(this.maxScore, this.currentScore);
+    const result = this.node.parent.parent.getChildByName("result");
+    result.getComponent(Label).string +=
+      "\nScore: " + this.currentScore + "\nHigh Score: " + this.maxScore;
+    result.active = true;
+  }
+
+  // back to main menu && calls to resetVars()
+  backToHome() {
+    this.node.parent.parent.children.forEach((item) => {
+      if (item.name == "start_screen") {
+        item.active = true;
+      } else {
+        item.active = false;
+      }
+    });
+    this.resetVars()
+  }
+
+
+  // reset game variables
+  resetVars(){
     this.isGameOver = false;
 
     //  revealed  the game item
@@ -193,14 +224,11 @@ But if it's the bomb the lifeCounter will go down
     this.node.parent.parent
       .getChildByName("result")
       .getComponent(Label).string = "Result: ";
-
-      // hide the retry button and result 
     this.node.parent.parent.getChildByName("result").active = false;
     this.node.parent.parent.getChildByName("retry").active = false;
+    console.log("game started");
   }
 
-
- //show the score results when the game ends.
   showResult() {
     console.log("show result");
     this.maxScore = Math.max(this.maxScore, this.currentScore);
