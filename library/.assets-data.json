@@ -546,5 +546,12 @@
       ]
     },
     "versionCode": 0
+  },
+  "0ed13793-8de4-4514-bda5-c8067483c63b": {
+    "url": "db://assets/Scripts/Team-2-Cocos-Creator-App.code-workspace",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
   }
 }

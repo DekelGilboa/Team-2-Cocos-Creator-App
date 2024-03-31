@@ -321,7 +321,7 @@
       "uuid": "1d30b896-4fff-4aa8-abca-e788e79de948"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts": {
-      "time": 1711882671000,
+      "time": 1711888052653.0596,
       "uuid": "2f1dfdb8-a464-4046-9bdd-1d2ddbe7f5a3"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/fonts": {
@@ -507,6 +507,13 @@
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Images/skyBlue.png": {
       "time": 1711880152090.434,
       "uuid": "5f1b2e75-5d1a-49e0-b0be-0e96becc30be"
+    },
+    "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/Team-2-Cocos-Creator-App.code-workspace.meta": {
+      "time": 1711888052665.0571
+    },
+    "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/Team-2-Cocos-Creator-App.code-workspace": {
+      "time": 1711888049762.2815,
+      "uuid": "0ed13793-8de4-4514-bda5-c8067483c63b"
     }
   },
   "missing": {
