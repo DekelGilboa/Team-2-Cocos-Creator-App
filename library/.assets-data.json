@@ -521,5 +521,30 @@
     "url": "db://assets/Scripts/copy-btn.ts",
     "value": {},
     "versionCode": 0
+  },
+  "5f1b2e75-5d1a-49e0-b0be-0e96becc30be": {
+    "url": "db://assets/Images/skyBlue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5f1b2e75-5d1a-49e0-b0be-0e96becc30be@6c48a": {
+    "url": "db://assets/Images/skyBlue.png@6c48a",
+    "value": {
+      "depends": [
+        "5f1b2e75-5d1a-49e0-b0be-0e96becc30be"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5f1b2e75-5d1a-49e0-b0be-0e96becc30be@f9941": {
+    "url": "db://assets/Images/skyBlue.png@f9941",
+    "value": {
+      "depends": [
+        "5f1b2e75-5d1a-49e0-b0be-0e96becc30be@6c48a"
+      ]
+    },
+    "versionCode": 0
   }
 }
