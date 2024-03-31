@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3203813.325709015,
+      "mTimestamp": 10486137.334750026,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -700,7 +700,7 @@
           }
         },
         {
-          "value": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts",
+          "value": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/conversion-btn.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -709,49 +709,77 @@
             },
             "end": {
               "line": 5,
-              "column": 688
+              "column": 698
+            }
+          }
+        },
+        {
+          "value": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/copy-btn.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 714
+            },
+            "end": {
+              "line": 5,
+              "column": 824
+            }
+          }
+        },
+        {
+          "value": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 840
+            },
+            "end": {
+              "line": 5,
+              "column": 946
             }
           }
         },
         {
           "value": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts",
-          "resolved": "__unresolved_5",
+          "resolved": "__unresolved_7",
           "loc": {
             "start": {
               "line": 5,
-              "column": 704
+              "column": 962
             },
             "end": {
               "line": 5,
-              "column": 810
+              "column": 1068
             }
           }
         },
         {
           "value": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts",
-          "resolved": "__unresolved_6",
+          "resolved": "__unresolved_8",
           "loc": {
             "start": {
               "line": 5,
-              "column": 826
+              "column": 1084
             },
             "end": {
               "line": 5,
-              "column": 932
+              "column": 1190
             }
           }
         },
         {
           "value": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts",
-          "resolved": "__unresolved_7",
+          "resolved": "__unresolved_9",
           "loc": {
             "start": {
               "line": 5,
-              "column": 948
+              "column": 1206
             },
             "end": {
               "line": 5,
-              "column": 1060
+              "column": 1318
             }
           }
         }
@@ -783,6 +811,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/conversion-btn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/copy-btn.ts"
           },
           "messages": []
         },
@@ -2033,7 +2075,7 @@
     },
     "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts": {
       "mTimestamp": {
-        "mtime": 1711870878030.2388,
+        "mtime": 1711878354655.0068,
         "uuid": "9fb5e751-875a-4270-8a58-b23b4a0832a1"
       },
       "chunkId": "25eebef1f9433550ecd61b91c025ea0a9c83e40f",
@@ -2210,6 +2252,110 @@
             "end": {
               "line": 1,
               "column": 64
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/conversion-btn.ts": {
+      "mTimestamp": {
+        "mtime": 1711871767407.3303,
+        "uuid": "a8d10f71-37ed-4b90-905e-2b5360d84399"
+      },
+      "chunkId": "2807ebb23ce6349319dbbe0d55793dc7da8d2967",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/copy-btn.ts": {
+      "mTimestamp": {
+        "mtime": 1711878021100.6062,
+        "uuid": "caed0a3c-fed8-4243-b403-3697cd86c361"
+      },
+      "chunkId": "7062e06df6dd8f9caa0458eaa7abb8c6e0a1de6a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
             }
           }
         }

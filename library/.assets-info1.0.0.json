@@ -313,7 +313,7 @@
       "uuid": "c2dc005e-2b04-4d2e-80af-243fb828def6"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Images": {
-      "time": 1711440482000,
+      "time": 1711874645000,
       "uuid": "7fd83927-b2cc-4a2e-94ca-5db557369e36"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scenes": {
@@ -321,7 +321,7 @@
       "uuid": "1d30b896-4fff-4aa8-abca-e788e79de948"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts": {
-      "time": 1711871074000,
+      "time": 1711878356000,
       "uuid": "2f1dfdb8-a464-4046-9bdd-1d2ddbe7f5a3"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/fonts": {
@@ -349,7 +349,7 @@
       "uuid": "9dfbd71b-6db7-495c-a190-870f739b70d0"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts": {
-      "time": 1711870878030.2388,
+      "time": 1711878354655.0068,
       "uuid": "9fb5e751-875a-4270-8a58-b23b4a0832a1"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts": {
@@ -493,6 +493,20 @@
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Images/small.png.meta": {
       "time": 1711440458539.9075
+    },
+    "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/conversion-btn.ts.meta": {
+      "time": 1711871561102.417
+    },
+    "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/conversion-btn.ts": {
+      "time": 1711871767407.3303,
+      "uuid": "a8d10f71-37ed-4b90-905e-2b5360d84399"
+    },
+    "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/copy-btn.ts.meta": {
+      "time": 1711878021111.1702
+    },
+    "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/copy-btn.ts": {
+      "time": 1711878021100.6062,
+      "uuid": "caed0a3c-fed8-4243-b403-3697cd86c361"
     }
   },
   "missing": {
@@ -535,6 +549,16 @@
       "path": "C:\\Users\\dekel\\App\\assets\\Scripts\\retryBtn.ts",
       "time": 1710787848181.3196,
       "removeTime": 1711460118359
+    },
+    "73e11845-2f67-427d-9d4e-a462aeaf41e9": {
+      "path": "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Images/skyblue-btn.png",
+      "time": 1711874072115.6768,
+      "removeTime": 1711874549712
+    },
+    "b86548d3-4cb2-4416-b90c-65f88b6bf63f": {
+      "path": "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Images/btn-background.png",
+      "time": 1711874523379.7744,
+      "removeTime": 1711874640005
     }
   }
 }

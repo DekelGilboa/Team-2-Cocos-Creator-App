@@ -465,5 +465,61 @@
       ]
     },
     "versionCode": 0
+  },
+  "a8d10f71-37ed-4b90-905e-2b5360d84399": {
+    "url": "db://assets/Scripts/conversion-btn.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "73e11845-2f67-427d-9d4e-a462aeaf41e9": {
+    "url": "db://assets/Images/skyblue-btn.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "73e11845-2f67-427d-9d4e-a462aeaf41e9@6c48a": {
+    "url": "db://assets/Images/skyblue-btn.png@6c48a",
+    "value": {
+      "depends": [
+        "73e11845-2f67-427d-9d4e-a462aeaf41e9"
+      ]
+    },
+    "versionCode": 0
+  },
+  "73e11845-2f67-427d-9d4e-a462aeaf41e9@f9941": {
+    "url": "db://assets/Images/skyblue-btn.png@f9941",
+    "value": {
+      "depends": [
+        "73e11845-2f67-427d-9d4e-a462aeaf41e9@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b86548d3-4cb2-4416-b90c-65f88b6bf63f": {
+    "url": "db://assets/Images/btn-background.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "b86548d3-4cb2-4416-b90c-65f88b6bf63f@6c48a": {
+    "url": "db://assets/Images/btn-background.png@6c48a",
+    "value": {
+      "depends": [
+        "b86548d3-4cb2-4416-b90c-65f88b6bf63f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b86548d3-4cb2-4416-b90c-65f88b6bf63f@f9941": {
+    "url": "db://assets/Images/btn-background.png@f9941",
+    "value": {
+      "depends": [
+        "b86548d3-4cb2-4416-b90c-65f88b6bf63f@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "caed0a3c-fed8-4243-b403-3697cd86c361": {
+    "url": "db://assets/Scripts/copy-btn.ts",
+    "value": {},
+    "versionCode": 0
   }
 }

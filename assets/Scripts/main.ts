@@ -9,6 +9,7 @@ export class main extends Component {
     });
     this.node.getChildByName("start_screen").active = true;
     this.node.getChildByName("conversion-btn").active = true;
+    this.node.getChildByName("copy-btn").active = true;
   }
 
   update(deltaTime: number) {}
