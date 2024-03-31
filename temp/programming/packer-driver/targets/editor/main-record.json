@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 14756.068957924843,
+      "mTimestamp": 5567.036000013351,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,11 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-<<<<<<< HEAD
-      "mTimestamp": 13447711.060500026,
-=======
-      "mTimestamp": 5641135.031875014,
->>>>>>> origin/main
+      "mTimestamp": 3203813.325709015,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1685,7 +1681,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1711440525436,
+      "mTimestamp": 1711867870442,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1953,11 +1949,7 @@
     },
     "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts": {
       "mTimestamp": {
-<<<<<<< HEAD
-        "mtime": 1711453182130.756,
-=======
-        "mtime": 1711446127804.0295,
->>>>>>> origin/main
+        "mtime": 1711871071473.732,
         "uuid": "87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb"
       },
       "chunkId": "2f29d3f9e07583d48b247f4e3ec50015b891417d",
@@ -2041,7 +2033,7 @@
     },
     "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts": {
       "mTimestamp": {
-        "mtime": 1711440458541.378,
+        "mtime": 1711870878030.2388,
         "uuid": "9fb5e751-875a-4270-8a58-b23b4a0832a1"
       },
       "chunkId": "25eebef1f9433550ecd61b91c025ea0a9c83e40f",
@@ -2197,11 +2189,7 @@
     },
     "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts": {
       "mTimestamp": {
-<<<<<<< HEAD
         "mtime": 1711447991828.2505,
-=======
-        "mtime": 1711440458541.6296,
->>>>>>> origin/main
         "uuid": "cf1ca905-8845-45b6-a373-daad147c1e5b"
       },
       "chunkId": "770b824d11c91bca124135060f4dc568e627dd7f",

@@ -8,6 +8,7 @@ export class main extends Component {
       child.active = false;
     });
     this.node.getChildByName("start_screen").active = true;
+    this.node.getChildByName("conversion-btn").active = true;
   }
 
   update(deltaTime: number) {}

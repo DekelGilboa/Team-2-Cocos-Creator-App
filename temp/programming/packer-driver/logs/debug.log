@@ -1,27 +1,27 @@
-10:09:00 debug: 26.3.2024, 10:09:00
-10:09:00 debug: Project: /Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App
-10:09:00 debug: Targets: editor,preview
-10:09:00 debug: Incremental file seems great.
-10:09:00 debug: Engine path: /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
-10:09:00 debug: Initializing target [Editor]
-10:09:00 debug: Loading cache
-10:09:00 debug: Loading cache costs 0.9401659965515137ms.
-10:09:00 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
-10:09:00 debug: Our import map(foo:/bar): {
+09:51:15 debug: 31.3.2024, 9:51:15
+09:51:15 debug: Project: /Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App
+09:51:15 debug: Targets: editor,preview
+09:51:15 debug: Incremental file seems great.
+09:51:15 debug: Engine path: /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
+09:51:15 debug: Initializing target [Editor]
+09:51:15 debug: Loading cache
+09:51:15 debug: Loading cache costs 1.1543750166893005ms.
+09:51:15 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
+09:51:15 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-10:09:00 debug: Initializing target [Preview]
-10:09:00 debug: Loading cache
-10:09:00 debug: Loading cache costs 0.7026669979095459ms.
-10:09:00 debug: Our import map(foo:/bar): {
+09:51:15 debug: Initializing target [Preview]
+09:51:15 debug: Loading cache
+09:51:15 debug: Loading cache costs 1.0695419907569885ms.
+09:51:15 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-10:09:00 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
-10:09:00 debug: Reset databases. Enumerated domains: [
+09:51:16 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
+09:51:16 debug: Reset databases. Enumerated domains: [
   {
     "root": "db://internal/",
     "physical": "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets"
@@ -31,212 +31,396 @@
     "physical": "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets"
   }
 ]
-10:09:00 debug: Our import map(foo:/bar): {
+09:51:16 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/"
   }
 }
-10:09:00 debug: Our import map(foo:/bar): {
+09:51:16 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/"
   }
 }
-10:09:00 debug: Pulling asset-db.
-10:09:00 debug: Fetch asset-db cost: 6.611041069030762ms.
-10:09:00 debug: Build iteration starts.
-Number of accumulated asset changes: 9
+09:51:16 debug: Pulling asset-db.
+09:51:16 debug: Fetch asset-db cost: 7.036125004291534ms.
+09:51:16 debug: Build iteration starts.
+Number of accumulated asset changes: 8
 Feature changed: false
-10:09:00 debug: Target(editor) build started.
-10:09:00 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:35 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:14 GMT+0200 (שעון ישראל (חורף))
-10:09:00 debug: Inspect cce:/internal/x/cc
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-10:09:00 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 03:15:54 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:14 GMT+0200 (שעון ישראל (חורף))
-10:09:00 debug: Inspect cce:/internal/x/prerequisite-imports
-10:09:00 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-10:09:00 debug: Inspect file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
-10:09:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts
-10:09:00 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/code-quality/cr.mjs.
-10:09:00 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Mar 18 2024 09:57:58 GMT+0200 (שעון ישראל (חורף)), Current mtime: Tue Mar 26 2024 10:08:45 GMT+0200 (שעון ישראל (חורף))
-10:09:00 debug: Inspect cce:/internal/code-quality/cr.mjs
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve ./main from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts as cce:/internal/x/cc.
-10:09:00 debug: Target(editor) ends with cost 296.57424998283386ms.
-10:09:00 debug: Target(preview) build started.
-10:09:00 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:36 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:14 GMT+0200 (שעון ישראל (חורף))
-10:09:00 debug: Inspect cce:/internal/x/cc
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-10:09:00 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-10:09:00 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 02 1970 03:15:55 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:15 GMT+0200 (שעון ישראל (חורף))
-10:09:00 debug: Inspect cce:/internal/x/prerequisite-imports
-10:09:00 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-10:09:00 debug: Inspect file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts
-10:09:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts
-10:09:00 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/code-quality/cr.mjs.
-10:09:00 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Mar 18 2024 09:57:58 GMT+0200 (שעון ישראל (חורף)), Current mtime: Tue Mar 26 2024 10:08:45 GMT+0200 (שעון ישראל (חורף))
-10:09:00 debug: Inspect cce:/internal/code-quality/cr.mjs
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve ./main from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts.
-10:09:00 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts as cce:/internal/x/cc.
-10:09:00 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts as cce:/internal/x/cc.
-10:09:00 debug: Target(preview) ends with cost 233.53087496757507ms.
-10:09:02 debug: Pulling asset-db.
-10:09:03 debug: Fetch asset-db cost: 458.12595903873444ms.
-10:09:03 debug: Build iteration starts.
-Number of accumulated asset changes: 9
+09:51:16 debug: Target(editor) build started.
+09:51:16 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:06 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:05 GMT+0200 (שעון ישראל (חורף))
+09:51:16 debug: Inspect cce:/internal/x/cc
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+09:51:16 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:06 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:05 GMT+0200 (שעון ישראל (חורף))
+09:51:16 debug: Inspect cce:/internal/x/prerequisite-imports
+09:51:16 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:51:16 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+09:51:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/code-quality/cr.mjs.
+09:51:16 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Mar 29 2024 14:41:39 GMT+0300 (שעון ישראל (קיץ)), Current mtime: Sun Mar 31 2024 09:51:10 GMT+0300 (שעון ישראל (קיץ))
+09:51:16 debug: Inspect cce:/internal/code-quality/cr.mjs
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve ./main from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Target(editor) ends with cost 68.5220830142498ms.
+09:51:16 debug: Target(preview) build started.
+09:51:16 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 02:00:06 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:05 GMT+0200 (שעון ישראל (חורף))
+09:51:16 debug: Inspect cce:/internal/x/cc
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+09:51:16 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+09:51:16 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:06 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:05 GMT+0200 (שעון ישראל (חורף))
+09:51:16 debug: Inspect cce:/internal/x/prerequisite-imports
+09:51:16 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:51:16 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+09:51:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/code-quality/cr.mjs.
+09:51:16 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Mar 29 2024 14:41:39 GMT+0300 (שעון ישראל (קיץ)), Current mtime: Sun Mar 31 2024 09:51:10 GMT+0300 (שעון ישראל (קיץ))
+09:51:16 debug: Inspect cce:/internal/code-quality/cr.mjs
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve ./main from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts as cce:/internal/x/cc.
+09:51:16 debug: Target(preview) ends with cost 52.81591698527336ms.
+09:51:16 debug: Pulling asset-db.
+09:51:16 debug: Fetch asset-db cost: 302.8207920193672ms.
+09:51:16 debug: Build iteration starts.
+Number of accumulated asset changes: 8
 Feature changed: false
-10:09:03 debug: Target(editor) build started.
-10:09:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:14 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:18 GMT+0200 (שעון ישראל (חורף))
-10:09:03 debug: Inspect cce:/internal/x/prerequisite-imports
-10:09:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts.
-10:09:03 debug: Target(editor) ends with cost 36.93083298206329ms.
-10:09:03 debug: Target(preview) build started.
-10:09:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:15 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:18 GMT+0200 (שעון ישראל (חורף))
-10:09:03 debug: Inspect cce:/internal/x/prerequisite-imports
-10:09:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
-10:09:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/retryBtn.ts.
-10:09:03 debug: Target(preview) ends with cost 30.125458002090454ms.
+09:51:16 debug: Target(editor) build started.
+09:51:16 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:05 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:06 GMT+0200 (שעון ישראל (חורף))
+09:51:16 debug: Inspect cce:/internal/x/prerequisite-imports
+09:51:16 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+09:51:16 debug: Target(editor) ends with cost 22.308375000953674ms.
+09:51:16 debug: Target(preview) build started.
+09:51:16 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:05 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:00:06 GMT+0200 (שעון ישראל (חורף))
+09:51:16 debug: Inspect cce:/internal/x/prerequisite-imports
+09:51:16 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+09:51:16 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+09:51:16 debug: Target(preview) ends with cost 30.063834011554718ms.
+10:08:03 debug: Dispatch build request for time accumulated 1 asset changes.
+10:08:03 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:08:03 debug: Target(editor) build started.
+10:08:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:06 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:16:53 GMT+0200 (שעון ישראל (חורף))
+10:08:03 debug: Inspect cce:/internal/x/prerequisite-imports
+10:08:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+10:08:03 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts. Last mtime: Tue Mar 26 2024 14:35:55 GMT+0200 (שעון ישראל (חורף))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb, Current mtime: Sun Mar 31 2024 10:06:04 GMT+0300 (שעון ישראל (קיץ))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb
+10:08:03 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts
+10:08:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/code-quality/cr.mjs.
+10:08:03 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:08:03 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:08:03 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:08:03 debug: Resolve ./main from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+10:08:03 debug: Target(editor) ends with cost 120.48570802807808ms.
+10:08:03 debug: Target(preview) build started.
+10:08:03 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:00:06 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:16:53 GMT+0200 (שעון ישראל (חורף))
+10:08:03 debug: Inspect cce:/internal/x/prerequisite-imports
+10:08:03 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+10:08:03 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts. Last mtime: Tue Mar 26 2024 14:35:55 GMT+0200 (שעון ישראל (חורף))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb, Current mtime: Sun Mar 31 2024 10:06:04 GMT+0300 (שעון ישראל (קיץ))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb
+10:08:03 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts
+10:08:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/code-quality/cr.mjs.
+10:08:03 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:08:03 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:08:03 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:08:03 debug: Resolve ./main from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:08:03 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+10:08:03 debug: Target(preview) ends with cost 63.70074999332428ms.
+10:38:04 debug: Dispatch build request for time accumulated 1 asset changes.
+10:38:04 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:38:04 debug: Target(editor) build started.
+10:38:04 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:16:53 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:46:54 GMT+0200 (שעון ישראל (חורף))
+10:38:04 debug: Inspect cce:/internal/x/prerequisite-imports
+10:38:04 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+10:38:04 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts. Last mtime: Tue Mar 26 2024 10:07:38 GMT+0200 (שעון ישראל (חורף))@9fb5e751-875a-4270-8a58-b23b4a0832a1, Current mtime: Sun Mar 31 2024 10:37:59 GMT+0300 (שעון ישראל (קיץ))@9fb5e751-875a-4270-8a58-b23b4a0832a1
+10:38:04 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts
+10:38:04 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:04 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:04 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+10:38:04 debug: Target(editor) ends with cost 52.10395899415016ms.
+10:38:04 debug: Target(preview) build started.
+10:38:04 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:16:53 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:46:54 GMT+0200 (שעון ישראל (חורף))
+10:38:04 debug: Inspect cce:/internal/x/prerequisite-imports
+10:38:04 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+10:38:04 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts. Last mtime: Tue Mar 26 2024 10:07:38 GMT+0200 (שעון ישראל (חורף))@9fb5e751-875a-4270-8a58-b23b4a0832a1, Current mtime: Sun Mar 31 2024 10:37:59 GMT+0300 (שעון ישראל (קיץ))@9fb5e751-875a-4270-8a58-b23b4a0832a1
+10:38:04 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts
+10:38:04 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:04 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:04 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:38:04 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+10:38:04 debug: Target(preview) ends with cost 47.94787499308586ms.
+10:38:23 debug: Dispatch build request for time accumulated 1 asset changes.
+10:38:23 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:38:23 debug: Target(editor) build started.
+10:38:23 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:46:54 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:47:13 GMT+0200 (שעון ישראל (חורף))
+10:38:23 debug: Inspect cce:/internal/x/prerequisite-imports
+10:38:23 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+10:38:23 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts. Last mtime: Sun Mar 31 2024 10:37:59 GMT+0300 (שעון ישראל (קיץ))@9fb5e751-875a-4270-8a58-b23b4a0832a1, Current mtime: Sun Mar 31 2024 10:38:18 GMT+0300 (שעון ישראל (קיץ))@9fb5e751-875a-4270-8a58-b23b4a0832a1
+10:38:23 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts
+10:38:23 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:23 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:23 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+10:38:23 debug: Target(editor) ends with cost 50.47954201698303ms.
+10:38:23 debug: Target(preview) build started.
+10:38:23 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:46:54 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:47:13 GMT+0200 (שעון ישראל (חורף))
+10:38:23 debug: Inspect cce:/internal/x/prerequisite-imports
+10:38:23 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+10:38:23 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts. Last mtime: Sun Mar 31 2024 10:37:59 GMT+0300 (שעון ישראל (קיץ))@9fb5e751-875a-4270-8a58-b23b4a0832a1, Current mtime: Sun Mar 31 2024 10:38:18 GMT+0300 (שעון ישראל (קיץ))@9fb5e751-875a-4270-8a58-b23b4a0832a1
+10:38:23 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts
+10:38:23 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:23 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:23 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:38:23 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+10:38:23 debug: Target(preview) ends with cost 43.02570798993111ms.
+10:43:44 debug: Dispatch build request for time accumulated 2 asset changes.
+10:43:44 debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+10:43:44 debug: Target(editor) build started.
+10:43:44 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:47:13 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:52:34 GMT+0200 (שעון ישראל (חורף))
+10:43:44 debug: Inspect cce:/internal/x/prerequisite-imports
+10:43:44 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+10:43:44 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts. Last mtime: Sun Mar 31 2024 10:06:04 GMT+0300 (שעון ישראל (קיץ))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb, Current mtime: Sun Mar 31 2024 10:43:31 GMT+0300 (שעון ישראל (קיץ))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb
+10:43:44 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts
+10:43:44 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/code-quality/cr.mjs.
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve ./main from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:43:44 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts. Last mtime: Sun Mar 31 2024 10:38:18 GMT+0300 (שעון ישראל (קיץ))@9fb5e751-875a-4270-8a58-b23b4a0832a1, Current mtime: Sun Mar 31 2024 10:41:18 GMT+0300 (שעון ישראל (קיץ))@9fb5e751-875a-4270-8a58-b23b4a0832a1
+10:43:44 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+10:43:44 debug: Target(editor) ends with cost 109.45099997520447ms.
+10:43:44 debug: Target(preview) build started.
+10:43:44 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:47:13 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:52:34 GMT+0200 (שעון ישראל (חורף))
+10:43:44 debug: Inspect cce:/internal/x/prerequisite-imports
+10:43:44 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+10:43:44 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts. Last mtime: Sun Mar 31 2024 10:06:04 GMT+0300 (שעון ישראל (קיץ))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb, Current mtime: Sun Mar 31 2024 10:43:31 GMT+0300 (שעון ישראל (קיץ))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb
+10:43:44 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts
+10:43:44 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/code-quality/cr.mjs.
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve ./main from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:43:44 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts. Last mtime: Sun Mar 31 2024 10:38:18 GMT+0300 (שעון ישראל (קיץ))@9fb5e751-875a-4270-8a58-b23b4a0832a1, Current mtime: Sun Mar 31 2024 10:41:18 GMT+0300 (שעון ישראל (קיץ))@9fb5e751-875a-4270-8a58-b23b4a0832a1
+10:43:44 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts as cce:/internal/x/cc.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:43:44 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+10:43:44 debug: Target(preview) ends with cost 65.94670897722244ms.
+10:44:34 debug: Dispatch build request for time accumulated 1 asset changes.
+10:44:34 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+10:44:34 debug: Target(editor) build started.
+10:44:34 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:52:34 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:53:23 GMT+0200 (שעון ישראל (חורף))
+10:44:34 debug: Inspect cce:/internal/x/prerequisite-imports
+10:44:34 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+10:44:34 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts. Last mtime: Sun Mar 31 2024 10:43:31 GMT+0300 (שעון ישראל (קיץ))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb, Current mtime: Sun Mar 31 2024 10:44:31 GMT+0300 (שעון ישראל (קיץ))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb
+10:44:34 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts
+10:44:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/code-quality/cr.mjs.
+10:44:34 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:44:34 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:44:34 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:44:34 debug: Resolve ./main from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+10:44:34 debug: Target(editor) ends with cost 69.6394160091877ms.
+10:44:34 debug: Target(preview) build started.
+10:44:34 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 02:52:34 GMT+0200 (שעון ישראל (חורף)), Current mtime: Thu Jan 01 1970 02:53:23 GMT+0200 (שעון ישראל (חורף))
+10:44:34 debug: Inspect cce:/internal/x/prerequisite-imports
+10:44:34 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_btn.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/apple_game.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/banana_btn.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts.
+10:44:34 debug: Detected change: file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts. Last mtime: Sun Mar 31 2024 10:43:31 GMT+0300 (שעון ישראל (קיץ))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb, Current mtime: Sun Mar 31 2024 10:44:31 GMT+0300 (שעון ישראל (קיץ))@87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb
+10:44:34 debug: Inspect file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts
+10:44:34 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/code-quality/cr.mjs.
+10:44:34 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:44:34 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:44:34 debug: Resolve cc from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as cce:/internal/x/cc.
+10:44:34 debug: Resolve ./main from file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/game.ts as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/main.ts.
+10:44:34 debug: Resolve file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts from cce:/internal/x/prerequisite-imports as file:///Users/mendiyakobov/Desktop/cocos%20new%20project/Team-2-Cocos-Creator-App/assets/Scripts/peache_btn.ts.
+10:44:34 debug: Target(preview) ends with cost 54.394666999578476ms.

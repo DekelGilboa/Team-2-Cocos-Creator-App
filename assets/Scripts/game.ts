@@ -172,8 +172,8 @@ But if it's the bomb the lifeCounter will go down
   // back to main menu && calls to resetVars()
   backToHome() {
     this.node.parent.parent.children.forEach((item) => {
-      if (item.name == "start_screen") {
-        item.active = true;
+      if (item.name == "start_screen" || item.name == "conversion-btn") {
+        item.active = true; 
       } else {
         item.active = false;
       }
