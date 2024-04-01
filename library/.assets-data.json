@@ -55,12 +55,13 @@
         "2168e49c-30c1-4624-b244-0a05b9aa2d9e@f9941"
       ],
       "dependScripts": [
-        "cf1ca905-8845-45b6-a373-daad147c1e5b",
         "87aeec3c-1bf7-4ca9-86ee-107b3ecba6fb",
         "23af093a-7445-4c94-92b3-19d2cf12cdf9",
         "2e2d9539-fe67-4faa-a613-d0a6634dedcf",
         "afff4d52-0397-489d-b02d-965b1b5303fd",
         "277a94ae-e4df-4d35-8106-366489027945",
+        "a8d10f71-37ed-4b90-905e-2b5360d84399",
+        "caed0a3c-fed8-4243-b403-3697cd86c361",
         "9fb5e751-875a-4270-8a58-b23b4a0832a1"
       ]
     },
@@ -463,6 +464,94 @@
       "depends": [
         "c2dc005e-2b04-4d2e-80af-243fb828def6@6c48a"
       ]
+    },
+    "versionCode": 0
+  },
+  "a8d10f71-37ed-4b90-905e-2b5360d84399": {
+    "url": "db://assets/Scripts/conversion-btn.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "73e11845-2f67-427d-9d4e-a462aeaf41e9": {
+    "url": "db://assets/Images/skyblue-btn.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "73e11845-2f67-427d-9d4e-a462aeaf41e9@6c48a": {
+    "url": "db://assets/Images/skyblue-btn.png@6c48a",
+    "value": {
+      "depends": [
+        "73e11845-2f67-427d-9d4e-a462aeaf41e9"
+      ]
+    },
+    "versionCode": 0
+  },
+  "73e11845-2f67-427d-9d4e-a462aeaf41e9@f9941": {
+    "url": "db://assets/Images/skyblue-btn.png@f9941",
+    "value": {
+      "depends": [
+        "73e11845-2f67-427d-9d4e-a462aeaf41e9@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b86548d3-4cb2-4416-b90c-65f88b6bf63f": {
+    "url": "db://assets/Images/btn-background.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "b86548d3-4cb2-4416-b90c-65f88b6bf63f@6c48a": {
+    "url": "db://assets/Images/btn-background.png@6c48a",
+    "value": {
+      "depends": [
+        "b86548d3-4cb2-4416-b90c-65f88b6bf63f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b86548d3-4cb2-4416-b90c-65f88b6bf63f@f9941": {
+    "url": "db://assets/Images/btn-background.png@f9941",
+    "value": {
+      "depends": [
+        "b86548d3-4cb2-4416-b90c-65f88b6bf63f@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "caed0a3c-fed8-4243-b403-3697cd86c361": {
+    "url": "db://assets/Scripts/copy-btn.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5f1b2e75-5d1a-49e0-b0be-0e96becc30be": {
+    "url": "db://assets/Images/skyBlue.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5f1b2e75-5d1a-49e0-b0be-0e96becc30be@6c48a": {
+    "url": "db://assets/Images/skyBlue.png@6c48a",
+    "value": {
+      "depends": [
+        "5f1b2e75-5d1a-49e0-b0be-0e96becc30be"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5f1b2e75-5d1a-49e0-b0be-0e96becc30be@f9941": {
+    "url": "db://assets/Images/skyBlue.png@f9941",
+    "value": {
+      "depends": [
+        "5f1b2e75-5d1a-49e0-b0be-0e96becc30be@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0ed13793-8de4-4514-bda5-c8067483c63b": {
+    "url": "db://assets/Scripts/Team-2-Cocos-Creator-App.code-workspace",
+    "value": {
+      "depends": []
     },
     "versionCode": 0
   }

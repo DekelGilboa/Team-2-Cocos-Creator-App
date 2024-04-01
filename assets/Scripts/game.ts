@@ -21,7 +21,6 @@ export class game extends Component {
   lifeCounter: number = 3;
   missed: boolean = false;
   isGameOver: boolean = false;
-
   // get random starting position for the game items 
   public startLocations = [...getArrayOf5RandomLocations()];
 
@@ -172,8 +171,8 @@ But if it's the bomb the lifeCounter will go down
   // back to main menu && calls to resetVars()
   backToHome() {
     this.node.parent.parent.children.forEach((item) => {
-      if (item.name == "start_screen") {
-        item.active = true;
+      if (item.name == "start_screen" || item.name == "conversion-btn" || item.name == "copy-btn") {
+        item.active = true; 
       } else {
         item.active = false;
       }
