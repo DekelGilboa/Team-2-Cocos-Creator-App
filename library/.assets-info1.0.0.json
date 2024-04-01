@@ -263,10 +263,6 @@
     "C:\\Users\\dekel\\App\\assets\\Scripts\\life.ts.meta": {
       "time": 1710749059374.555
     },
-    "C:\\Users\\dekel\\App\\assets\\Scripts\\life.ts": {
-      "time": 1710749059362.7502,
-      "uuid": "9dfbd71b-6db7-495c-a190-870f739b70d0"
-    },
     "C:\\Users\\dekel\\App\\assets\\Images\\bomb.png.meta": {
       "time": 1710748494609.6914
     },
@@ -317,11 +313,11 @@
       "uuid": "7fd83927-b2cc-4a2e-94ca-5db557369e36"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scenes": {
-      "time": 1711460110000,
+      "time": 1711889362000,
       "uuid": "1d30b896-4fff-4aa8-abca-e788e79de948"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts": {
-      "time": 1711888052653.0596,
+      "time": 1711888057000,
       "uuid": "2f1dfdb8-a464-4046-9bdd-1d2ddbe7f5a3"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/fonts": {
@@ -435,7 +431,7 @@
       "uuid": "2168e49c-30c1-4624-b244-0a05b9aa2d9e"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scenes/scene.scene": {
-      "time": 1711460102249.6965,
+      "time": 1711889355691.3787,
       "uuid": "570b64af-bb4f-4d0b-85f6-c423df259ca1"
     },
     "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/fonts/FiraCode-Regular.ttf": {
@@ -573,9 +569,9 @@
       "removeTime": 1711880209369
     },
     "9dfbd71b-6db7-495c-a190-870f739b70d0": {
-      "path": "/Users/mendiyakobov/Desktop/cocos new project/Team-2-Cocos-Creator-App/assets/Scripts/life.ts",
-      "time": 1711440458541.2346,
-      "removeTime": 1711881401705
+      "path": "C:\\Users\\dekel\\App\\assets\\Scripts\\life.ts",
+      "time": 1710749059362.7502,
+      "removeTime": 1711955746382
     }
   }
 }
